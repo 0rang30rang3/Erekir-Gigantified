@@ -12,7 +12,9 @@ requirements: [
   graphite/30
 ]
 consumes: {
+items:[
   beryllium/1
+]
 }
 powerProduction: 7
 itemDuration: 50
