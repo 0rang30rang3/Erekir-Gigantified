@@ -1,4 +1,5 @@
 type: ThermalGenerator
+attribute: steam
 name: Condensive Generator
 description: Condenses vent gases and uses beryllium based coolant to  produce medium amounts of power.
 size: 3
