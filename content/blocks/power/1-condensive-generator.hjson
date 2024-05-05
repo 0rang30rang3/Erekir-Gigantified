@@ -1,7 +1,8 @@
 type: ThermalGenerator
 attribute: steam
+displayEfficiencyScale: 0.11
 name: Condensive Generator
-description: Condenses vent gases and uses beryllium based coolant to  produce medium amounts of power.
+description: Condenses vent gases to produce medium amounts of power and Benylline as by-product.
 size: 3
 health: 300
 category: power
@@ -13,13 +14,8 @@ requirements: [
   beryllium/50
   graphite/30
 ]
-consumes: {
-items:[
-  beryllium/2
-]
-}
-powerProduction: 7
-itemDuration: 50
+powerProduction: 5
+outputLiquid: 1-benylline
 generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
