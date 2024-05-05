@@ -2,6 +2,7 @@ type: VentGenerator
 name: Condensive Generator
 description: Condenses vent gases and uses beryllium based coolant to  produce medium amounts of power.
 size: 3
+health: 300
 category: power
 research: {
   parent: vent-condenser
@@ -13,7 +14,7 @@ requirements: [
 ]
 consumes: {
 items:[
-  beryllium/1
+  beryllium/2
 ]
 }
 powerProduction: 7
