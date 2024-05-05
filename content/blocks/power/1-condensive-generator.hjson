@@ -1,0 +1,33 @@
+type: VentGenerator
+name: Condensive Generator
+description: Condenses vent gases and uses beryllium based coolant to  produce medium amounts of power.
+size: 3
+category: power
+research: {
+  parent: vent-condenser
+}
+squareSprite: false
+requirements: [
+  beryllium/50
+  graphite/30
+]
+consumes: {
+  beryllium/1
+}
+powerProduction: 7
+itemDuration: 50
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+  drawer: DrawMulti 
+drawers: [
+{
+  type: DrawDefault
+    }
+{
+      type: DrawBlurSpin
+      suffix: -rotator
+        spinSprite: true
+        }
+]
+researchCostMultiplier: 0.5
