@@ -23,7 +23,7 @@ generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
   drawer: DrawMulti 
-drawers: [
+drawer: [
 {
   type: DrawDefault
     }
