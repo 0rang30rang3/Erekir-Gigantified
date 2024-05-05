@@ -14,8 +14,8 @@ requirements: [
   beryllium/50
   graphite/30
 ]
-powerProduction: 5
-outputLiquid: 1-benylline
+powerProduction: 4.5
+outputLiquid: 1-benylline/0.8
 generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
