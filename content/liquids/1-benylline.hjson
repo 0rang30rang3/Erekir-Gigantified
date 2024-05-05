@@ -5,3 +5,4 @@ color: b3ac69
 heatCapacity: 0.3
 gasColor: b3ac69 
 research: water
+cacheLayer: slag
