@@ -1,0 +1,9 @@
+name: Radium
+description: "A rock-like material. Very radioactive."
+hardness: 2.4
+cost: 0.5
+  radioactivity: 2.5
+alwaysUnlocked: true
+color: 36ff40 
+research: beryllium
+hiddenOnPlanets: [serpulo] 
