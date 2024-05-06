@@ -1,5 +1,5 @@
 type: OreWall
 name: Radium (wall)
 description: "Ore that contains chunks of radioactive radium. This ore can be mined up with a generic Plasma Bore."
-  outputItem: 1-radium/1
+  outputItem: 1-radium-item/1
 variants:3
